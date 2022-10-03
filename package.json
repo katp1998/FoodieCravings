@@ -1,0 +1,26 @@
+{
+  "name": "foodiecravings",
+  "version": "1.0.0",
+  "description": "This is an application that recommends food. This is built using React-next.js, Express,  Node.js and PostgreSQL technologies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katp1998/FoodieCravings.git"
+  },
+  "keywords": [
+    "foodies",
+    "food",
+    "suggestions",
+    "food",
+    "recommendations"
+  ],
+  "author": "Kethmie Perera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katp1998/FoodieCravings/issues"
+  },
+  "homepage": "https://github.com/katp1998/FoodieCravings#readme"
+}
