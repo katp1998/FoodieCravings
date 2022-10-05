@@ -4,7 +4,8 @@
   "description": "This is an application that recommends food. This is built using React-next.js, Express,  Node.js and PostgreSQL technologies",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,13 @@
   "bugs": {
     "url": "https://github.com/katp1998/FoodieCravings/issues"
   },
-  "homepage": "https://github.com/katp1998/FoodieCravings#readme"
+  "homepage": "https://github.com/katp1998/FoodieCravings#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
