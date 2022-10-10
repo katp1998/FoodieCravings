@@ -13,5 +13,6 @@ app.get("/", (rq, rs) => {
 });
 
 app.use("/api/v1/food", foodRoutes);
+app.use("/api/v1/user", userRoutes);
 
 app.listen(PORT, () => console.log(`Server running on ${PORT}`));

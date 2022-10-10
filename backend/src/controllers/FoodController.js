@@ -1,10 +1,11 @@
 //importing database
 const pool = require("../../config/db");
+const { getAllFoodItemsQuery } = require("../queries/FoodQueries");
 
 //METHOD: GET
 //ROUTE: /api/v1/food/getAll
 const getAllFoodItems = (rq, rs) => {
-  pool.query("SELECT * FROM fooditem", (err, results) => {
+  pool.query(getAllFoodItemsQuery, (err, results) => {
     if (err) throw err;
     rs.status(200).json(results.rows);
   });
